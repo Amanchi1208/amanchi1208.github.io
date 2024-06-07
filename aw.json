@@ -83,22 +83,6 @@
             ]
         },
         {
-            "key": "NY影院",
-            "name": "NY",
-            "type": 3,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/NY.js"
-        },
-        {
             "key": "csp_Nbys",
             "name": "泥巴",
             "type": 3,
