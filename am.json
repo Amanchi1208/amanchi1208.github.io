@@ -216,23 +216,6 @@
             "timeout": 15
         },
         {
-            "key": "NT",
-            "name": "NT",
-            "type": 3,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "api": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/lib/drpy2.min.js",
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/NT.js",
-            "timeout": 15
-        },
-        {
             "key": "NanGua",
             "name": "南瓜",
             "type": 3,

@@ -96,7 +96,7 @@
                 "ratio": 1.433
             },
             "api": "./lib/drpy2.min.js",
-            "ext": "./json/NY.js"
+            "ext": "./js/NY.js"
         },
         {
             "key": "csp_Nbys",
