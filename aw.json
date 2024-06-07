@@ -110,8 +110,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "api": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/lib/drpy2.min.js",
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/js/NY.js",
+            "api": "https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/lib/drpy2.min.js",
+            "ext": "https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/js/NY.js",
             "timeout": 15
         },
         {
