@@ -247,7 +247,7 @@
             }
         },
         {
-            "key": "XBPQ_文才",
+            "key": "文才",
             "name": "文才",
             "type": 3,
             "api": "csp_XBPQ",
@@ -283,7 +283,6 @@
         {
             "key": "XBPQ_电影先生",
             "name": "电影",
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": 2,
@@ -295,10 +294,11 @@
                 "type": "rect",
                 "ratio": 1.433
             },
+            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar",
             "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/dy.json"
         },
         {
-            "key": "XBPQ_麻衣影院",
+            "key": "麻衣影院",
             "name": "麻衣",
             "type": 3,
             "api": "csp_XBPQ",
@@ -597,28 +597,6 @@
             "changeable": 0
         },
         {
-            "key": "应用商店",
-            "name": "Market",
-            "type": 3,
-            "api": "csp_Market",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/market.json"
-        },
-        {
-            "key": "配置中心",
-            "name": "配置中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.1
-            },
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/lib/tokenm.json"
-        },
-        {
             "key": "push_agent",
             "name": "推送",
             "type": 3,
@@ -626,7 +604,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/tokenm.json",
+            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/lib/tokenm.json",
             "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/fm.jar"
         }
     ],
