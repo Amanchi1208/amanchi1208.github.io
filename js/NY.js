@@ -1,18 +1,18 @@
-muban.短视2.二级.title = '.slide-info-title&&Text;.hl-ma0&&Text';
-muban.短视2.二级.img = '.detail-pic&&img&&data-src';
-muban.短视2.二级.desc = '.fraction&&Text;;;.slide-info:eq(3)--strong&&Text;.slide-info:eq(2)--strong&&Text';
-muban.短视2.二级.tab_text = 'body--i--span&&Text';
+muban.短视2.二级.title ='.slide-info-title&&Text;.hl-ma0&&Text';
+muban.短视2.二级.img ='.detail-pic&&img&&data-src';
+muban.短视2.二级.desc ='.fraction&&Text;;;.slide-info:eq(3)--strong&&Text;.slide-info:eq(2)--strong&&Text';
+muban.短视2.二级.tab_text ='body--i--span&&Text';
 var rule = {
-    title: 'NY影院',
-    模板: '短视2',
-    host: 'https://www.nycvod.com',
-    homeUrl: '/index.php/label/rb.html',
-    url: '/index.php/api/vod#type=fyfilter&page=fypage',
-    url: '/vodshow/fyfilter.html',
-    detailUrl: '/voddetail/fyid.html',
-    filterable: 1,//是否启用分类筛选,
-    filter_url: '{{fl.cateId}}-{{fl.area}}-{{fl.by or "time"}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
-    filter: {
+    title:'NY影院',
+    模板:'短视2',
+    host:'https://www.nycvod.com',
+    homeUrl:'/index.php/label/rb.html',
+    // url: '/index.php/api/vod#type=fyfilter&page=fypage',
+    url:'/vodshow/fyfilter.html',
+    detailUrl:'/voddetail/fyid.html',
+    filterable:1,//是否启用分类筛选,
+    filter_url:'{{fl.cateId}}-{{fl.area}}-{{fl.by or "time"}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
+    filter:{
         "1": [
             {
                 "key": "cateId",
@@ -2522,21 +2522,21 @@ var rule = {
             }
         ]
     },
-    filter_def: {
-        1: { cateId: '1' },
-        2: { cateId: '2' },
-        3: { cateId: '3' },
-        4: { cateId: '4' },
-        5: { cateId: '5' },
-        29: { cateId: '29' },
-        50: { cateId: '50' },
+    filter_def:{
+        1:{ cateId: '1' },
+        2:{ cateId: '2' },
+        3:{ cateId: '3' },
+        4:{ cateId: '4' },
+        5:{ cateId: '5' },
+        29:{ cateId: '29' },
+        50:{ cateId: '50' },
     },
-    class_name: '',
-    class_url: '',
-    class_parse: '.swiper-wrapper&&li.swiper-slide:lt(8);a&&Text;a&&href;/(\\d+)',
-    cate_exclude: '伦理片',
-    play_parse: true,
-    lazy: `js:
+    class_name:'',
+    class_url:'',
+    class_parse:'.swiper-wrapper&&li.swiper-slide:lt(8);a&&Text;a&&href;/(\\d+)',
+    cate_exclude:'伦理片',
+    play_parse:true,
+    lazy:`js:
         var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
         var url = html.url;
         if (html.encrypt == '1') {
@@ -2554,6 +2554,6 @@ var rule = {
             input
         }
     `,
-    推荐: '.public-list-box;a&&title;.lazy&&data-src;.public-prt&&Text;a&&href',
-    double: false,
+    推荐:'.public-list-box;a&&title;.lazy&&data-src;.public-prt&&Text;a&&href',
+    double:false,
 }
