@@ -102,8 +102,15 @@
             "name": "影视",
             "type": 1,
             "api": "http://zhangqun66.serv00.net/159.php",
+            "playerType": 2,
             "searchable": 1,
-            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
             "categories": [
                 "动作片",
                 "喜剧片",
@@ -293,7 +300,7 @@
             "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/wc.json"
         },
         {
-            "key": "XBPQ_黑狐影院",
+            "key": "黑狐影院",
             "name": "黑狐",
             "type": 3,
             "api": "csp_XBPQ",
@@ -310,7 +317,7 @@
             "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/hh.json"
         },
         {
-            "key": "XBPQ_电影先生",
+            "key": "电影先生",
             "name": "电影",
             "type": 3,
             "api": "csp_XBPQ",
