@@ -98,42 +98,6 @@
             "ext": "null$$$null$$$1"
         },
         {
-            "key": "影视",
-            "name": "影视",
-            "type": 1,
-            "api": "http://zhangqun66.serv00.net/159.php",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "国产剧",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "国产动漫",
-                "欧美动漫",
-                "日韩动漫",
-                "体育",
-                "NBA",
-                "爽文短剧",
-                "年代穿越",
-                "成长逆袭"
-            ]
-        },
-        {
             "key": "小白",
             "name": "小白",
             "type": 3,
