@@ -261,7 +261,7 @@
             "searchable": 1,
             "changeable": 0,
             "jar": "./jar/fm.jar",
-            "ext": "./txt/token.txt"
+            "ext": "./lib/tokenm.json"
         }
     ],
     "doh": [
