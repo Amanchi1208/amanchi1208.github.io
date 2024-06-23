@@ -447,19 +447,21 @@
             "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/jp.json"
         },
         {
-            "key": "csp_Xunlei8",
-            "name": "迅雷吧",
+            "key": "迅雷8",
+            "name": "迅雷",
             "type": 3,
-            "api": "csp_Xunlei8",
+            "api": "csp_XBPQ",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "changeable": 1,
+            "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.433
-            }
+            },
+            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar",
+            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/xl.json"
         },
         {
             "key": "新6V",
