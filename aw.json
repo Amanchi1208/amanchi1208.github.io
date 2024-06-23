@@ -260,7 +260,7 @@
             "api": "csp_Push",
             "searchable": 1,
             "changeable": 0,
-            "jar":"./jar/fm.jar",
+            "jar": "./jar/fm.jar",
             "ext": "./txt/token.txt"
         }
     ],
