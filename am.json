@@ -34,6 +34,91 @@
             "api": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/js/search.js"
         },
         {
+            "key": "酷看",
+            "name": "酷看",
+            "type": 3,
+            "api": "csp_Kkys",
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "https://gitee.com/okjack/okk/raw/master/okjpg.txt",
+            "timeout": 10
+        },
+        {
+            "key": "小苹果",
+            "name": "小苹果",
+            "type": 3,
+            "api": "csp_Xpg",
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "https://gitee.com/okjack/okk/raw/master/okjpg.txt",
+            "timeout": 10
+        },
+        {
+            "key": "JOJO",
+            "name": "JOJO",
+            "type": 3,
+            "api": "csp_Jiohub",
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "https://gitee.com/okjack/okk/raw/master/okjpg.txt",
+            "timeout": 10
+        },
+        {
+            "key": "无忧短剧",
+            "name": "无忧短剧",
+            "type": 3,
+            "api": "csp_Duanj",
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "https://gitee.com/okjack/okk/raw/master/okjpg.txt",
+            "timeout": 10
+        },
+        {
+            "key": "ikBot",
+            "name": "ikBot",
+            "type": 3,
+            "api": "csp_Ikanbot",
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "https://gitee.com/okjack/okk/raw/master/okjpg.txt",
+            "timeout": 10
+        },
+        {
             "key": "天天",
             "name": "天天",
             "type": 3,
